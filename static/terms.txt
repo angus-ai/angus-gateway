@@ -1,0 +1,267 @@
+TERMS OF USE
+ARTICLE 1. LEGAL INFORMATION
+The Angus.ai platform is published by Angus.ai, a “société par actions simplifiée” (simplified joint stock company) with a capital of €50,000, registered with the Companies Register of Paris under number 810 796 953, having its principal place of business at 6, square Desaix, Paris (75015), France, telephone: +33 663 728 958 — email: contact@Angus.ai hereinafter referred to as “Angus.ai”
+
+ARTICLE 2. PREAMBLE
+Angus.ai is an innovative company engaged in the fields of Cloud Computing and Artificial Intelligence.
+
+The Angus.ai platform was born from the desire to develop an artificial intelligence software platform and artificial intelligence Software Development Kit (SDK) for smart machines, installed on servers or embedded on device
+
+The Angus.ai software platform, which aggregates a variety of artificial intelligence technologies, allows its users to select qualified software technologies (third-party software product or internal software development) with the capacity to improve their algorithms continuously
+
+The Angus.ai platform is accessible from www.angus.ai website solely for the purpose of developing and testing technologies developed using Angus SDK, released by Angus.ai on GitHub, under the Apache License V.2.0.
+
+As a user of Angus.ai:
+
+you acknowledge that by using Angus.ai, you are agreeing to be bound by and comply with the terms of use the Angus.ai platform;
+you acknowledge and represent that you obtained from Angus.ai all the necessary information on the services and the use of the Angus.ai platform;
+you fully and unconditionally agree to these terms of use.
+ARTICLE 3. DEFINITIONS
+The following terms shall have the meaning below:
+
+“Angus.ai “ means the artificial intelligence platform operated by Angus.ai;
+“personal account” means the web environment dedicated to the User on Angus.ai, including User’s personal information;
+“Premium User” means any person who purchases access to Angus.ai’s plateform for any use exceeding two hours per month;
+“User” means any person using the Angus.ai platform;
+“User content” means software code and contributions posted or uploaded by Users on Angus.ai, including but not limited to software, programs, images or text such as lines of code.
+ARTICLE 4. PREREQUISITES
+Users warrant that they meet all of the following prerequisites:
+
+Be more than thirteen years of age when accessing the Angus.ai platform;
+Possess legal parental or guardian consent (if Users are minors);
+Have the legal capacity to enter into by these terms of use;
+Have the computer hardware required to access the platform;
+Have a valid email address.
+Users are informed that they can save and print these terms of use by using the standard features of their browser or computer.
+
+ARTICLE 5. PURPOSE
+The purpose of these terms of use is to set forth the terms and conditions under which Users are authorized to use the Angus.ai artificial intelligence platform for the sole purpose of developing, testing and operating technologies developed from Angus SDK.
+
+ARTICLE 6. BINDING NATURE AND ENFORCEABILITY
+These terms of use are binding upon and enforceable against Users upon their acceptance.
+
+The terms of use will be deemed to have been read by and be applicable to Users on Users’ first use of Angus.ai.
+
+Angus.ai reserves the right to make such changes to these terms of use as it may deem necessary or appropriate. These terms of use will remain in effect throughout the time period during which Users use Angus.ai, unless and until replaced by new terms of use.
+
+The terms of use posted on the home page of the Angus.ai platform accessible on the www.angus.ai  website shall prevail over any version printed at an earlier date.
+
+Users may at any time stop using the services offered on Angus.ai but they will remain responsible for any prior use.
+
+ARTICLE 7. ACCESS TO ANGUS.AI PLATFORM FROM WWW.ANGUS.AI SITE
+Angus.ai platform is accessible  from www.angus.ai website.
+
+Users are personally responsible for accessing Angus.ai website. The costs to access Angus.ai are the sole responsibility of Users who are personally responsible for taking out any necessary telecommunications subscriptions.
+
+Angus.ai platform is free for Users within a time frame of two hours per month
+
+Otherwise, Users shall purchase a monthly subscription to Angus.ai and become Premium Users. Please send an email to contact@angus.ai for more details
+
+ARTICLE 8. USER PERSONAL ACCOUNT
+In order to access or post User Content or perform software development on the Angus.ai platform, a personal account must first be created.
+
+An individual can only have one account: same last name, same first name, same email address.
+
+Users can register and create a personal account by using an application form available on www.angus.ai allowing access to the www.Angus.ai website.
+
+The registration process via the online form includes the following steps:
+
+User fills out a registration form by completing the required fields, some of which are identified as mandatory. The information given must be accurate and updated regularly;
+User reads and agrees to the terms of use by checking the box provided for this purpose; if User does not agree to the terms of use, it is not possible to create a personal account;
+Once the form is correctly filled out, the User submits the form and an email is sent to the email address provided by the User to finalize the registration;
+An email is sent to the User to confirm the registration and the creation of the personal account.
+Using of a pseudonym is permitted subject to indicating one’s true identity to Angus.ai in the registration form. The pseudonym chosen by the User shall not be misleading, infringing or insulting.
+
+Users guarantee the accuracy of the information given during the registration process.
+
+ARTICLE 8.1 USERNAME AND PASSWORD
+
+The username and password chosen by Users are strictly personal and confidential.
+
+Users agree not to disclose their username and password to others. Under these terms of use and in accordance with general law, Users shall be liable for the acts and conducts of any person using their account, even without their knowledge, and thus for maintaining the confidentiality of their username, password and/or any personal information they posted or uploaded on Angus.ai. Users agree to take all appropriate measures to ensure complete confidentiality, including by regularly changing their password.
+
+Users agree to report any unauthorized use of their personal account or any loss, theft or disclosure of their username and password to Angus.ai at the email address contact@angus.ai as soon as possible.
+
+No operation can be performed by Users without their logins.
+
+Any use of the Angus.ai platform with the password assigned to a User will be deemed to originate exclusively from that User.
+
+Users are solely responsible for the use of Angus.ai that will be made with their username and password.
+
+ARTICLE 8.2 CLOSING A PERSONAL ACCOUNT
+
+Users may stop using Angus.ai at any time and close their personal account without notice, without cause and without any costs other than those related to the access of the site, as described in section “Close my personal account” on the website.
+
+A period of about 24 hours is required for Angus.ai to close a User’s personal account.
+
+Angus.ai will retain for a reasonable time the User content and personal data, in particular for the purposes of reinstating the account.
+
+The closing of the personal account by the User according to this section will automatically result in the termination hereof.
+
+In all cases, Users remain liable for all use of their personal account prior to the closing of their account.
+
+ARTICLE 9. DESCRIPTION OF ANGUS.AI SERVICES
+Angus.ai gives Users the possibility to:
+
+access a continuously updated catalog of pre-designed artificial intelligence software components (third-party software product or internal software development);
+Select and interchange these components (third-party software product or internal software development);
+arrange and orchestrate them;
+operate them from the Angus.ai cloud, or download these components on Users’ own computing infrastructure.
+ARTICLE 10. FUNCTIONING OF ANGUS.AI
+Angus.ai strives to provide Users with a available and efficient technical platform, but it cannot guarantee that it will be permanently available or trouble-free.
+
+In particular, Angus.ai reserves the right to make the site unavailable in order to perform scheduled or emergency maintenance operations.
+
+Angus.ai cannot be held liable in case of unavailability or malfunction of the Angus.ai platform resulting from external causes including but not limited to network outages, failure of the Internet access or hosting provider, and disruptions in the Internet network.
+
+Angus.ai uses powerful security tools but cannot absolutely guarantee Users against the absence of fraudulent intrusion of others on the Angus.ai platform or in a User account.
+
+Consequently Angus.ai may not be held liable for malicious acts or fraudulent intrusion by a third party on the Angus.ai platform.
+
+ARTICLE 11. UNDERTAKINGS OF USERS
+ARTICLE 11.1 RIGHTS AND DUTIES OF USERS
+
+Users agree to access and use the Angus.ai platform for the sole purpose of enabling its development and operations and shall not use it in a manner not expressly provided for in Article 9 “Description of Angus.ai Services” of these terms of use.
+
+Users agree to use Angus.ai in accordance with the following terms and conditions, in compliance with applicable laws and the rights of third parties.
+
+Users undertake not to upload or post any obviously illicit content.
+
+Are considered as obviously illicit content:
+
+Apology of war crimes and crimes against humanity, revisionism and holocaust denial;
+Crimes against humanity denial;
+Incitation to acts of terrorism;
+Any provocation of, or incitation to commit crimes, misdemeanors, and in particular crimes against humanity, racial hatred, violence, murder, suicide, incitation to the use, fabrication, or distribution of illegal or unlawful substances,
+Racism or Xenophobia;
+Any content that pertains to, or may be considered in nature to be child pornography;
+Human trafficking and pimping;
+Violations of human dignity;
+Any discrimination based on race, sex, origins, beliefs and religions;
+Any provocation of, or incitation to use alcohol or tobacco;
+Users shall not, without limitation:
+
+infringe in any way whatsoever the intellectual property rights of Angus.ai in and to the platform and the elements composing it;
+sell, lease, sublease, grant a security interest in or pledge the platform and the elements composing it, and in general to dispose the same in any manner and for any reason not authorized by Angus.ai;
+degrade, alter, disable the platform and the elements composing it in any way whatsoever;
+use the platform and the elements composing it for a purpose other than that authorized by Angus.ai;
+logically decompile or physically disassemble the platform and the elements composing it;
+totally or partially copy or otherwise reproduce the platform and the elements composing it and the related documentation, including for backup purposes;
+directly or indirectly, for consideration or for free, communicate or make available the platform and the elements composing it to a third party that is not a beneficiary under or referred to in the agreement;
+totally or partially modify, merge with other programs, adapt or arrange the platform and the elements composing it, for any reason, including the creation of derivative or entirely new software and/or package;
+use the platform and the elements composing it and the related documentation in any manner whatsoever, to design, develop, distribute or market similar, equivalent or substituting software and/package;
+delete or conceal any Angus.ai’s trademark, copyright, logo or other propriety notice or documentation of the solution, whether installed or installable versions;
+directly or indirectly transcribe or translate into other languages the platform and the elements composing it and the related documentation, and totally or partially modify or merge it with other computer programs;
+make public or disclose to third parties the platform and the elements composing it, and the technologies and developments performed, in any form whatsoever.
+If Users are aware of any unauthorized use or disclosure of the solution by any of the persons authorized to use the platform and the elements composing it in breach of this section, they agree to take all necessary measures in order to stop the breach.
+
+ARTICLE 11.2 USER CONTENT
+
+In addition, Users agree:
+
+to comply with the rights of third parties, including their right to privacy and image;
+to comply with the intellectual property rights of third parties;
+to comply with the moral and property interests and the brand image of Angus.ai;
+not to publish content unrelated to the purpose of the site, incomplete or not in keeping with the spirit of the site;
+not to publish content aiming to divert the purpose of the site and the services for the purposes of propaganda, proselytism;
+not to disclose personal data of third parties.
+ARTICLE 12. HOSTING OF USER CONTENT
+ARTICLE 12.1 HOSTING PROVIDER OF USERS CONTENT
+
+The Angus.ai platform is a technical service allowing in particular Users to post or upload software code, images, videos, voicen and sound data, as well as comments.
+
+Angus.ai is therefore a hosting provider (“hébergeur”) of third-party content within the meaning of French Act No. 2004-575 of 21 June 2004 on Confidence in the Digital Economy, meaning that it hosts User content over which it has no control and for which it is not liable.
+
+Angus.ai is not involved in the creation of User content and does not perform any ex ante monitoring over such content; it cannot therefore be held liable for content posted or uploaded by Users on the site.
+
+However, Users expressly agree that Angus.ai reserves the right to monitor ex post User content posted or uploaded and to remove content it would consider in violation of the legal rules and the terms of use.
+
+If an information or content uploaded on Angus.ai by Users does not comply with these terms of use and the laws in force, any users could report this breach and violation to Angus.ai by clicking on the “Report Abuse” link.
+
+ARTICLE 12.2 REPORT UNLAWFUL CONTENT
+
+For reasons related to the quality of services and www.angus.ai site, Angus.ai can moderate any User post and, if necessary, delete it.
+
+It agrees to act when clearly unlawful content has been notified to it in accordance with Act 2004-575 of 21 June 2004 on Confidence in the Digital Economy or reported via the “Report Abuse” link available on the website. In such circumstances, it will take the measures it deems most appropriate to the situation.
+
+It cannot be held liable for the monitoring measures it has set up and cannot guarantee that such monitoring will be error-free, complete, or accurate.
+
+Angus.ai reserves the right to immediately delete, without delay and without compensation of any kind, any content that violates these terms of use and that would have been reported to it in accordance with this section, particularly if it relates to unlawful objects and activities.
+
+ARTICLE 13. WARNING TO USERS
+Users shall in particular not introduce viruses, malicious codes or other technology harmful for the site or the services offered thereon.
+
+Any access to a prohibited area will be considered an authorized access within the meaning of Article 323-1 the French Penal Code.
+
+Users must assume that all data found when accessing a prohibited area are confidential and they agree not to disclose them.
+
+Users shall not saturate a service or a page, take bounce actions or any other action that may interfere with or distort the operation of the site.
+
+Users agree not to use devices or software of any kind that would result in disrupting the proper functioning of the platform.
+
+Users agree not to take any action that would impose a disproportionate burden on the infrastructure of the platform
+
+Users agree to the characteristics and limitations of the Internet. They are aware that data circulating on the Internet are not necessarily protected, particularly against possible misuse.
+
+Users shall take appropriate measures to ensure their own security, including the management of their usernames and passwords that they shall keep confidential, and to protect their own data and/or software from virus infection on the Internet network.
+
+If a security breach is discovered, Users must inform Angus.ai.
+
+Finally, Users must ensure that all data transmitted and all content posted or uploaded as part of the services are backed up by them.
+
+ARTICLE 14. INTELLECTUAL PROPERTY
+ARTICLE 14.1 ANGUS.AI CONTENT
+
+The data, software and programs (without limitation) that make up the Angus.ai platform, are the exclusive property of Angus.ai and are protected by intellectual property rights as recognized by the laws in force. The use of the Angus.ai platform does not imply any transfer of intellectual property rights.
+
+Users undertake to use Angus SDK under the terms of the Apache 2.0 license. The terms of the Apache 2.0 license are available at the following link: https://www.apache.org/licenses/LICENSE-2.0. By agreeing to these terms of use, Users acknowledge that they have read and agreed to the terms of the Apache 2.0 license.
+
+ARTICLE 14.2 USER CONTENT
+
+Users represent that they hold the intellectual property rights in any content (software, program, source codes, object codes etc.) posted or uploaded on the Angus.ai platform, or at least that they have been granted the prior permission of the owner of the intellectual property rights.
+
+Users hold the intellectual property rights in all contributions to software, programs and source codes constituting the Angus.ai platform that they would have developed in the event that the User Content may be considered original.
+
+ARTICLE 14.3 THIRD-PARTY CONTENT
+
+The elements belonging to third parties, such as, without limitation, software, programs, trademarks, designs, pictures, texts, photos, and logos, are the exclusive property of their author and are protected as such by the intellectual property rights which are recognized by the legislation in force.
+
+Users agree that they shall not act in any manner that may directly or indirectly infringe the intellectual property rights of other Users and more generally any third parties or cause confusion, by way of analogy, in the mind of the public for any purpose whatsoever.
+
+Users further agree to take all measures necessary for the protection of such rights against any third party, in particular by maintaining all proprietary notices displayed on all data, information and more generally on the User content available on the website or made available by third parties.
+
+ARTICLE 15. NON-INFRINGEMENT
+Users indemnify and hold Angus.ai harmless from and against all third party claims (based on the infringement of an intellectual property, a personality right such as right to image, right to privacy, or on unfair competition or free riding) about the software code or comments they upload, post or use. As a result, Users will be personally responsible for and bear alone all consequences arising out of such claims, and warrant Angus.ai against all third-party actions.
+
+Users warrant Angus.ai and undertake to justify on request that:
+
+they own or have sufficient rights in and to the contributions they post or upload on the Angus.ai;
+they complied with the intellectual property rights of third parties;
+the use of the data collected on Angus.ai do not harm the privacy and/or rights of personal portrayal individuals;
+the User content they post are not clearly unlawful.
+Accordingly, Users shall indemnify and hold Angus.ai harmless from and against any action, claim, proceeding, complaint or opposition, whatever the form, purpose or nature, from any person in relation to the breach of an intellectual property right, unfair competition, free riding and/or a violation of a personality right, or from and against any legal proceedings against Angus.ai based on the positing and/or use of User content.
+
+In this respect, Users agree to be introduced in any action that would be initiated against Angus.ai. In such case, the compensation and expenses of any nature incurred by Angus.ai for its defense, including attorney’s fees, as well as all damages awarded against it shall be borne by Users.
+
+ARTICLE 16. PROTECTION OF PERSONAL DATA
+Angus.ai shall be responsible for carrying out the formalities it is required to carry out under personal data protection laws and regulations, in particular the French Act No. 78-17 of 6 January 1978 on Data Processing, Data Files and Individual Liberties (Data Protection Act)
+
+In accordance with Article 32 of the French Data Protection Act No. 78-17 of 6 January 1978, as amended, Angus.ai informs Users that it processes personal data relating to them, acting as the data controller. The data disclosed by Users in the forms posted on the site are intended for the authorized personnel of Angus.ai for administrative and commercial management purposes
+
+Pursuant to the French Data Protection Act of 6 January 1978, Users have a right to inquire about, access, modify and rectify on request their personal data processed by the Angus.ai platform at the following email address: contact@angus.ai
+
+Users must comply with the provisions of the French Data Protection Act No. 78-17 of 6 January 1978, as amended; users who violate these provisions may be subject to criminal penalties. In particular, Users shall not collect or misuse personal data or otherwise act in a manner that may adversely affect the privacy or reputation of others.
+
+ARTICLE 17. ENTIRE AGREEMENT
+These terms of use constitute the entire agreement between the parties. No general or specific terms set forth in any document sent or delivered by a user shall be integrated hereto, irrespective of the means of communication used.
+
+ARTICLE 18. SEVERABILITY
+If one or several provisions of these terms of use were to be held invalid or so declared by a law, a regulation or a final decision having res judicata effect rendered by a court having proper jurisdiction, the other provisions shall remain in full force and effect.
+
+ARTICLE 19. NON-WAIVER
+Angus.ai’s failure to insist on or enforce strict performance of any of the obligations stated herein by a User shall not be construed as a waiver of said obligation for the future.
+
+ARTICLE 20. GOVERNING LAW
+These terms of use shall be governed by French law.
+
+French law shall apply to both form and substance, notwithstanding the place of performance of the essential or ancillary obligations.
