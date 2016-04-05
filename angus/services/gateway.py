@@ -189,7 +189,7 @@ class Blob(tornado.web.RequestHandler):
         res = self.storage.get(uid)
         if res is not None:
             content, meta = res
-            if meta['user'] == user:
+            if meta['owner'] == user:
                 self.write(content)
                 self.set_status(200)
                 self.flush()
