@@ -36,7 +36,7 @@ import angus.analytics
 
 LOGGER = logging.getLogger(__name__)
 
-__updated__ = "2015-12-28"
+__updated__ = "2016-04-05"
 __author__ = "Aurélien Moreau"
 __copyright__ = "Copyright 2015, Angus.ai"
 __credits__ = ["Aurélien Moreau", "Gwennaël Gâté"]
@@ -55,13 +55,13 @@ class Storage(object):
         """ Store a new blob
         """
         self.inner[key] = (content, meta)
-        if len(self) > self.size:
+        if len(self.inner) > self.size:
             self.inner.popitem(last=False)
 
     def get(self, key):
         """ Get back a blob
         """
-        return self.inner[key]
+        return self.inner.get(key)
 
     def iteritems(self):
         """ Iterator over content
@@ -186,9 +186,9 @@ class Blob(tornado.web.RequestHandler):
     @angus.analytics.report
     def get(self, uid):
         user = angus.framework.extract_user(self)
-
-        if uid in self.storage:
-            content, meta = self.storage.get(uid)
+        res = self.storage.get(uid)
+        if res is not None:
+            content, meta = res
             if meta['user'] == user:
                 self.write(content)
                 self.set_status(200)
