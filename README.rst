@@ -12,6 +12,7 @@ Configuration
 Mono service option
 +++++++++++++++++++
 
+* SERVICE_DIR (default None): service directory in json format
 * SERVICE_NAME (default None): the service name
 * SERVICE_VERSION (default 1): the service version
 * SERVICE_URL (default None): the service url
