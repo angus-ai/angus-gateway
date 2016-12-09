@@ -26,17 +26,15 @@ __copyright__ = "Copyright 2015-2016, Angus.ai"
 __credits__ = ["Aurélien Moreau", "Gwennaël Gâté"]
 __status__ = "Production"
 
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 setup(name='angus-gateway',
       version="0.0.2",
       description='Angus Cloud Gateway',
       author=__author__,
       author_email='aurelien.moreau@angus.ai',
       url='http://www.angus.ai/',
-      install_requires=[
-          "argparse==1.2.1",
-          "tornado",
-          "sqlalchemy",
-          "angus-framework==0.0.2",
-      ],
+      install_requires=requirements,
       packages=find_packages(),
       )

@@ -14,7 +14,9 @@ RUN   apt-get update && apt-get install -y \
 #
 # Angus Framework
 #
-RUN   pip install angus-framework==0.0.*
+RUN pip install pip --upgrade
+COPY requirements.txt /
+RUN   pip install -r requirements.txt
 
 #
 # Service
