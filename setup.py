@@ -20,14 +20,14 @@
 
 from setuptools import setup, find_packages
 
-__updated__ = "2015-12-28"
+__updated__ = "2016-12-09"
 __author__ = "Aurélien Moreau"
-__copyright__ = "Copyright 2015, Angus.ai"
+__copyright__ = "Copyright 2015-2016, Angus.ai"
 __credits__ = ["Aurélien Moreau", "Gwennaël Gâté"]
 __status__ = "Production"
 
 setup(name='angus-gateway',
-      version="0.0.1",
+      version="0.0.2",
       description='Angus Cloud Gateway',
       author=__author__,
       author_email='aurelien.moreau@angus.ai',
@@ -36,8 +36,7 @@ setup(name='angus-gateway',
           "argparse==1.2.1",
           "tornado",
           "sqlalchemy",
-          "angus-framework",
+          "angus-framework==0.0.2",
       ],
       packages=find_packages(),
-      scripts=['bin/angus-access.py']
       )
