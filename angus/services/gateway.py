@@ -36,9 +36,9 @@ import angus.analytics
 
 LOGGER = logging.getLogger(__name__)
 
-__updated__ = "2016-04-05"
+__updated__ = "2016-12-09"
 __author__ = "Aurélien Moreau"
-__copyright__ = "Copyright 2015, Angus.ai"
+__copyright__ = "Copyright 2015-2016, Angus.ai"
 __credits__ = ["Aurélien Moreau", "Gwennaël Gâté"]
 __status__ = "Production"
 
@@ -217,7 +217,7 @@ def main():
     """
     logging.basicConfig(level=logging.INFO)
     home = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-    port = os.environ.get('PORT', 8888)
+    port = os.environ.get('PORT', 80)
     services = find_services()
     msg = "Available services:\n" + json.dumps(services, indent=4)
     LOGGER.info(msg)
