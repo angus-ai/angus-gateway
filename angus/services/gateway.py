@@ -210,13 +210,13 @@ def find_services():
 
     if service_dir is not None:
         services = json.loads(service_dir)
-    elif service_file is not None and os.path.isfile(service_file):
-        with open(service_file, 'r') as sfile:
-            services = json.loads(sfile.read())
     elif service_name is not None and service_url is not None:
         services = dict()
         services[service_name] = dict()
         services[service_name][service_version] = service_url
+    elif service_file is not None and os.path.isfile(service_file):
+        with open(service_file, 'r') as sfile:
+            services = json.loads(sfile.read())
     else:
         services = dict()  # No available service
 
