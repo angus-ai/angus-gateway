@@ -14,7 +14,7 @@ RUN   apt-get update && apt-get install -y \
 #
 # Angus Framework
 #
-RUN   pip install angus-framework==0.0.2
+RUN   pip install angus-framework==0.0.*
 
 #
 # Service
