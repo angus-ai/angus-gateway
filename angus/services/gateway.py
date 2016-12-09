@@ -202,13 +202,16 @@ class Blob(tornado.web.RequestHandler):
 def find_services():
     """ Retrive service description
     """
-    services = os.environ.get('SERVICE_FILE', '/etc/angus-gateway/services.json')
+    service_dir = os.environ.get('SERVICE_DIR', None)
+    service_file = os.environ.get('SERVICE_FILE', '/etc/angus-gateway/services.json')
     service_name = os.environ.get('SERVICE_NAME', None)
     service_url = os.environ.get('SERVICE_URL', None)
     service_version = os.environ.get('SERVICE_VERSION', 1)
 
-    if services is not None and os.path.isfile(services):
-        with open(services, 'r') as sfile:
+    if service_dir is not None:
+        services = json.loads(service_dir)
+    elif service_file is not None and os.path.isfile(service_file):
+        with open(service_file, 'r') as sfile:
             services = json.loads(sfile.read())
     elif service_name is not None and service_url is not None:
         services = dict()
