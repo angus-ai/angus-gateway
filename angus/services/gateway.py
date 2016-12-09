@@ -224,7 +224,7 @@ def main():
     """
     logging.basicConfig(level=logging.INFO)
     home = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-    port = os.environ.get('PORT', 80)
+    port = os.environ.get('PORT', 8080)
     services = find_services()
     msg = "Available services:\n" + json.dumps(services, indent=4)
     LOGGER.info(msg)

@@ -5,7 +5,7 @@ Angus Gateway Service
 Configuration
 =============
 
-* PORT (default 80): listen port
+* PORT (default 8080): listen port
 * SERVICE_FILE (default /etc/angus-gateway/services.json): the service
   directory
 
