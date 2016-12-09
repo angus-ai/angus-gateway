@@ -203,14 +203,21 @@ def find_services():
     """ Retrive service description
     """
     services = os.environ.get('SERVICE_FILE', '/etc/angus-gateway/services.json')
+    service_name = os.environ.get('SERVICE_NAME', None)
+    service_url = os.environ.get('SERVICE_URL', None)
+    service_version = os.environ.get('SERVICE_VERSION', 1)
+
     if services is not None and os.path.isfile(services):
         with open(services, 'r') as sfile:
             services = json.loads(sfile.read())
+    elif service_name is not None and service_url is not None:
+        services = dict()
+        services[service_name] = dict()
+        services[service_name][service_version] = service_url
     else:
         services = dict()  # No available service
 
     return services
-
 
 def main():
     """ Run the service
