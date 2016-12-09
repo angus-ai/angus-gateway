@@ -5,11 +5,16 @@ Angus Gateway Service
 Configuration
 =============
 
-* PORT
-* SERVICE_FILE
-* SERVICE_NAME
-* SERVICE_VERSION
-* SERVICE_URL
+* PORT (default 80): listen port
+* SERVICE_FILE (default /etc/angus-gateway/services.json): the service
+  directory
+
+Mono service option
++++++++++++++++++++
+
+* SERVICE_NAME (default None): the service name
+* SERVICE_VERSION (default 1): the service version
+* SERVICE_URL (default None): the service url
 
 Releases
 ========
