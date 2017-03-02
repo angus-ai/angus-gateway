@@ -1,4 +1,4 @@
-FROM    angus:genericservice
+FROM 773153459320.dkr.ecr.eu-west-1.amazonaws.com/angus.box/genericservice
 
 #
 # Service
