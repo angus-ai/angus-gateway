@@ -30,13 +30,11 @@ import uuid
 
 import tornado.ioloop
 import tornado.web
-
-import angus.analytics
-
+import angus.framework
 
 LOGGER = logging.getLogger(__name__)
 
-__updated__ = "2016-12-09"
+__updated__ = "2017-11-10"
 __author__ = "Aurélien Moreau"
 __copyright__ = "Copyright 2015-2016, Angus.ai"
 __credits__ = ["Aurélien Moreau", "Gwennaël Gâté"]
@@ -81,7 +79,6 @@ class Services(tornado.web.RequestHandler):
         tornado.web.RequestHandler.initialize(self)
         self.service_map = service_map
 
-    @angus.analytics.report
     def get(self):
         response = dict()
 
@@ -107,7 +104,6 @@ class Service(tornado.web.RequestHandler):
         tornado.web.RequestHandler.initialize(self)
         self.service_map = service_map
 
-    @angus.analytics.report
     def get(self, service):
         if service not in self.service_map:
             self.set_status(404, "Unknown service %s" % (service))
@@ -135,7 +131,6 @@ class Versions(tornado.web.RequestHandler):
         tornado.web.RequestHandler.initialize(self)
         self.service_map = service_map
 
-    @angus.analytics.report
     def get(self, service, version):
 
         # get a description
@@ -152,7 +147,6 @@ class BlobStorage(tornado.web.RequestHandler):
     def initialize(self, storage):
         self.storage = storage
 
-    @angus.analytics.report
     def post(self):
         status = 201
         self.set_status(status, "Blob created")
@@ -183,7 +177,6 @@ class Blob(tornado.web.RequestHandler):
     def initialize(self, storage):
         self.storage = storage
 
-    @angus.analytics.report
     def get(self, uid):
         user = angus.framework.extract_user(self)
         res = self.storage.get(uid)
