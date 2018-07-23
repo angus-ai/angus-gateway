@@ -20,6 +20,19 @@ Mono service option
 Releases
 ========
 
+Angus Gateway Service - Release Note 1.0.0
+++++++++++++++++++++++++++++++++++++++++++
+
+Features added
+--------------
+* Add blob delete action
+
+Fixes
+------
+* Do not try to convert to json when it is a binary resource.
+
+
+
 Angus Gateway Service - Release Note 0.0.2
 ++++++++++++++++++++++++++++++++++++++++++
 
