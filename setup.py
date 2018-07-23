@@ -20,7 +20,7 @@
 
 from setuptools import setup, find_packages
 
-__updated__ = "2016-12-09"
+__updated__ = "2018-07-23"
 __author__ = "Aurélien Moreau"
 __copyright__ = "Copyright 2015-2016, Angus.ai"
 __credits__ = ["Aurélien Moreau", "Gwennaël Gâté"]
@@ -30,7 +30,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(name='angus-gateway',
-      version="0.0.2",
+      version="1.0.0",
       description='Angus Cloud Gateway',
       author=__author__,
       author_email='aurelien.moreau@angus.ai',

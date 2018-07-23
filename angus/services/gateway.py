@@ -36,12 +36,11 @@ import angus.analytics
 
 LOGGER = logging.getLogger(__name__)
 
-__updated__ = "2016-12-09"
+__updated__ = "2018-07-18"
 __author__ = "Aurélien Moreau"
-__copyright__ = "Copyright 2015-2016, Angus.ai"
+__copyright__ = "Copyright 2015-2018, Angus.ai"
 __credits__ = ["Aurélien Moreau", "Gwennaël Gâté"]
 __status__ = "Production"
-
 
 class Storage(object):
     """ Storage class for blobs
@@ -57,6 +56,9 @@ class Storage(object):
         self.inner[key] = (content, meta)
         if len(self.inner) > self.size:
             self.inner.popitem(last=False)
+
+    def remove(self, key):
+        del self.inner[key]
 
     def get(self, key):
         """ Get back a blob
@@ -182,6 +184,12 @@ class Blob(tornado.web.RequestHandler):
 
     def initialize(self, storage):
         self.storage = storage
+
+    def delete(self, uid):
+        try:
+            self.storage.remove(uid)
+        except KeyError:
+            self.set_status(404, "Blob resource %s not found" % (uid))
 
     @angus.analytics.report
     def get(self, uid):
